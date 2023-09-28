@@ -52,7 +52,7 @@ article img {
     margin-left: 1em;
     margin-bottom: 1em;
 }
-article p::first-leter {
+article p::first-letTer {
    font-size: 3em;
    font-weight: bold;
    font-style: italic;
