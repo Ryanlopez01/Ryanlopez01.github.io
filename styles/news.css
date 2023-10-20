@@ -23,7 +23,7 @@ article h1{
     column-span: all;
 }
 aside{
-    width: 20%
+    width: 20%;
     float: right;
     background-color: lightblue;
     padding: 0.1em 1em 1em;
