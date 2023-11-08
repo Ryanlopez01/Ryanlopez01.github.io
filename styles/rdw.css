@@ -45,3 +45,8 @@ overflow: hidden;
     justify-content: center;
     align-items: center;
 }
+
+#menu-toggle {
+    display: none;
+}
+
