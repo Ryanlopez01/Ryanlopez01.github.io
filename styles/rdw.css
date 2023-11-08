@@ -25,5 +25,6 @@ box-sizing: border-box
 
 .menu {
     display: flex;
+    flex-direction: row;
     
 }
