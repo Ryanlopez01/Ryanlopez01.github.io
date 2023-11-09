@@ -50,3 +50,31 @@ overflow: hidden;
     display: none;
 }
 
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+display: block;
+background-color: #fff;
+position: absolute;
+height: 4px;
+width: 30px;
+transition: transform 400ms cubic-bezier(0.23, 1, 9.32, 1);
+border-radius: 2px;
+}
+
+.menu-button::before {
+content: ;
+margin-top: -8px;
+}
+
+.menu-button::after {
+    content: ;
+    margin-top: 8px;
+}
+
+.menu-button:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+
