@@ -77,4 +77,18 @@ margin-top: -8px;
     transform: rotate(405deg);
 }
 
+#menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405);
+}
+/*----end of menu*/
+section a{
+    text-decoration: none;
+    color: white;
+}
+
 
