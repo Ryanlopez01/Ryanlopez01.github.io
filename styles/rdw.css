@@ -72,7 +72,7 @@ margin-top: -8px;
     margin-top: 8px;
 }
 
-.menu-button:checked + .menu-button-container .menu-button::before {
+#menu-button:checked + .menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(405deg);
 }
