@@ -63,13 +63,13 @@ html, body {
     }
 
     .menu-button::before {
-    content: ;
-    margin-top: -8px;
+    content: 
+    margin-top; -8px;
     }
 
     .menu-button::after {
-    content: ;
-    margin-top: 8px;
+    content: 
+    margin-top; 8px;
     }
 
     #menu-button:checked + .menu-button-container .menu-button::before {
